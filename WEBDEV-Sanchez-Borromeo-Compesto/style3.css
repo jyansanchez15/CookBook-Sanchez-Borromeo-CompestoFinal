@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:  center; 
+    flex-direction: column;
+    background: url(desert.webp);
+    font-family: cursive;
+}
+.card{
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-right: 40%;
+    text-align: center;
+    align-items: start;
+    border-style: solid;
+    background: linear-gradient(90deg, #ff7b00, #eeff00);
+}
+.card2{
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-left: 40%;
+    text-align: center;
+    align-items: start;
+    border-style: solid;
+    background: linear-gradient(90deg, #ff7b00, #eeff00);
+}
+.card3{
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-right: 40%;
+    text-align: center;
+    align-items: start;
+    border-style: solid;
+    background: linear-gradient(90deg, #ff7b00, #eeff00);
+}
+.title{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+  button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+  
+button:hover, a:hover{
+    opacity: 0.7;
+}
+.card img{
+    height: 350px;
+}
+.card2 img{
+    height: 350px;
+}
+.topnav {
+    overflow: hidden;
+    background: linear-gradient(90deg, #ff3c00, #ffee00);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ffe600;
+    color: orange;
+  }
+  
+  .topnav a.active {
+    background-color: #aa4f04;
+    color: rgb(255, 238, 0);
+  }

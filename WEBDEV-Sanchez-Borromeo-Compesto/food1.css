@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:  center; 
+    flex-direction: column;
+    background: url(desert.webp);
+    font-family: cursive;
+}
+img {
+    border: 3px solid black;
+}
+.title{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+  button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+  
+button:hover, a:hover{
+    opacity: 0.7;
+}
+.topnav {
+    overflow: hidden;
+    background: linear-gradient(90deg, #ff3c00, #ffee00);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ffe600;
+    color: orange;
+  }
+  
+  .topnav a.active {
+    background-color: #aa4f04;
+    color: rgb(255, 238, 0);
+  }

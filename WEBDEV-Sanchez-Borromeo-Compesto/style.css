@@ -1,0 +1,63 @@
+
+body {
+  margin: 0;
+  font-family: cursive;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items:  center; 
+    flex-direction: column;
+    background: url(desert.webp)
+}
+.background img{
+  display: flex;
+  object-fit: cover;
+}
+
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(90deg, #ff3c00, #ffee00);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ffe600;
+  color: orange;
+}
+
+.topnav a.active {
+  background-color: #aa4f04;
+  color: rgb(255, 238, 0);
+}
+.zoom{padding: 10px;
+  transition: transform .2s; /* Animation */
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card{ 
+  align-items: center;
+  align-self: center;
+  font-weight: bold;
+  color: rgb(206, 0, 0);
+  background: url(desert.jpg);
+  
+}
+.card{
+  border: 5px double rgb(255, 115, 0)
+}
+h2{
+  font-family: cursive;
+}
